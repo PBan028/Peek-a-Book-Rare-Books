@@ -157,7 +157,7 @@ nav ul li a:hover {
     }
 
     .arrivals iframe {
-        width: 40%;
+        width: 100%;
         height: auto;
     }
 }
