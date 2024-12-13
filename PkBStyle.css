@@ -49,12 +49,6 @@ nav ul li a:hover {
  	width: 50%;
 	height: auto;
 	}
-.logo img{
- 	display: block;
- 	margin: 0 auto;
- 	width: 15%;
-	height: auto;
-	}
 .bdy {
 	background-color: antiquewhite;
 	border: 2px groove; 
@@ -67,6 +61,38 @@ nav ul li a:hover {
 	line-height: 1.5;
 	letter-spacing: 1.5px;
 	}
+.maildisplayfooter {
+	color: white;
+	}
+
+.maildisplay {
+	color: black;
+}
+.foot {
+	display: flex;
+	align-items: center;
+	padding: 10 px;
+	background-color: darkslategray;
+	
+	.logo {
+		display: flex;
+		align-items: center;
+	}
+
+	.logo img{
+		width: 100px;
+		height: auto;
+		margin-right: 15px;
+	}
+
+	.foottxt {
+		font-family: Palatino, serif;
+		color: white;
+		font-size: 14px;
+		line-height: 1.5;
+		letter-spacing: 1px;
+	}
+}
 .blurbs {
 	text-indent: -30px;
 	padding-left: 30px;
@@ -86,4 +112,24 @@ nav ul li a:hover {
 	max-width: 100%;
 	height: 600px;
 	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.main img {
+ 		width: 40%;
+		margin: 6px
 	}
+	.logo img{
+		width: 40%
+	}	
+}
+
+@media only screen and (max-width: 600px){
+	.main img {
+		width:100%;
+	}
+	.logo img{
+		width: 100%;
+	}
+}
